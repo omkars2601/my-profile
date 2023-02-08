@@ -6,17 +6,24 @@
     <!-- CDN link -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
+    <style>
+      .formSpace{
+        margin-bottom: 50px;
+      }
+    
+    </style>
   </head>
   <body>
+    <form>
     <h2>Contact Us</h2>
     <fieldset>
      <legend> <span> <i>Contact Us</i> </span></legend>
 
     <table>
       <tbody>
-        <tr>
+        <tr >
           <td><label>Full Name:</label></td>
-          <td>
+          <td class="formSpace">
             <input
               placeholder="max char length is 40"
               type="text"
@@ -24,17 +31,17 @@
             />
           </td>
         </tr>
-        <tr>
+        <tr >
           <td><label>Mobile Number:</label></td>
-          <td><input type="number" required maxlength="10" /></td>
+          <td class="formSpace"><input type="number" required maxlength="10" /></td>
         </tr>
-        <tr>
+        <tr >
           <td><label>Email:</label></td>
-          <td><input placeholder="Ex.abc@gmail.com" type="email" /></td>
+          <td class="formSpace"><input placeholder="Ex.abc@gmail.com" type="email" /></td>
         </tr>
-        <tr>
+        <tr >
           <td>Enquiry:</td>
-          <td><textarea cols="40" rows="8"></textarea></td>
+          <td class="formSpace"><textarea cols="40" rows="8"></textarea></td>
         </tr>
       </tbody>
     </table>
@@ -44,6 +51,7 @@
     <strong>Follow Me</strong> <i class="fa fa-facebook-official fa-2x"  aria-hidden="true"></i>
   
     </fieldset>
+  </form>
   </body>
 
   
